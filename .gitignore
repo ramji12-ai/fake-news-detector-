@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies & build artifacts
+node_modules/
+dist/
+
+# Local databases & credentials
+*.db
+*.sqlite3
+backend/veritext.db
+
+# Large generated dataset file (>100MB exceeds GitHub push limit)
+dataset/final_dataset.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
