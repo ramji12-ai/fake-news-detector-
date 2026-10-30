@@ -5,7 +5,7 @@
  * Connects to existing Flask Backend API at http://127.0.0.1:5000
  */
 
-const API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = "https://fake-news-detector-g408.onrender.com";
 const PREDICT_ENDPOINT = `${API_BASE_URL}/predict`;
 const CHAT_ENDPOINT = `${API_BASE_URL}/chat`;
 const MAX_ARTICLE_CHARS = 5000;
