@@ -28,6 +28,7 @@ export const CHAT_ENDPOINT = `${API_BASE_URL}/chat`;
 
 export const MODEL_INFO_ENDPOINT = `${API_BASE_URL}/model-info`;
 export const NEWS_ENDPOINT = `${API_BASE_URL}/news`;
+export const MAX_ARTICLE_CHARS = 10000;
 
 export const STORAGE_KEYS = {
   HISTORY: "veritext_history",
